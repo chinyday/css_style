@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2c2c54;
+}
+
+.login_box .title{
+    font-weight: 500;
+    color: #fff;
+}
+.login_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 30px;
+    background-color: #333;
+    text-align: center;
+}
+.login_box input[type = 'text'],
+.login_box input[type = 'password']{
+    border: 0;
+    width: 200px;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #227093;
+    border-radius: 24px;
+    margin: 20px auto;
+    padding: 14px 10px;
+    outline: none;
+    color: #fff;
+    transition: 0.25s;
+}
+.login_box input[type = 'text']:focus,
+.login_box input[type = 'password']:focus{
+    width: 280px;
+    border: 2px solid #33d9b2;
+}
+.login_box input[type = 'submit']{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #33d9b2;
+    border-radius: 24px;
+    margin: 20px auto;
+    padding: 14px 40px;
+    outline: none;
+    color: #fff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login_box input[type = 'submit']:hover{
+    background-color: #33d9b2;
+}
