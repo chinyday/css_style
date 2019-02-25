@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+.contact-info{
+    position: fixed;
+    top: 40%;
+    left: 0;
+    z-index: 9999;
+}
+
+.contact-info .option{
+    cursor: pointer; 
+    position: relative;
+}
+
+.option i{
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #b2bec3;
+    background-color: #dfe6e9;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    left: -140px;
+    z-index: -1;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #1f2021;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.option:hover i{
+    color: #74b9ff;
+}
+
+.option:hover .text{
+    left: 60px;
+}
