@@ -84,27 +84,27 @@ li{
     transition: 0.4s;
 }
 .facebook{
-    color: #313deeec;
+    color: #3c5997;
 }
 .twitter{
-    color: #358fe4;
+    color: #1da1f1;
 }
 .instar{
-    color: #f83888ef;
+    color: #147db9;
 }
 
 .sns_wrap .facebook:hover{
-    background-color: #313deeec;
+    background-color: #3c5997;
     color: #fff;
     border-radius: 50%;
 }
 .sns_wrap .twitter:hover{
-    background-color: #358fe4;
+    background-color: #1da1f1;
     color: #fff;
     border-radius: 50%;
 }
 .sns_wrap .instar:hover{
-    background-color: #f83888ef;
+    background-color: #147db9;
     color: #fff;
     border-radius: 50%;
 }
