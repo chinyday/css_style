@@ -95,16 +95,15 @@ li{
 
 .sns_wrap .facebook:hover{
     background-color: #3c5997;
-    color: #fff;
-    border-radius: 50%;
 }
 .sns_wrap .twitter:hover{
     background-color: #1da1f1;
-    color: #fff;
-    border-radius: 50%;
 }
 .sns_wrap .instar:hover{
     background-color: #147db9;
+}
+
+.sns_wrap li:hover{
     color: #fff;
     border-radius: 50%;
 }
